@@ -3,12 +3,12 @@ queen: "Killer Queen",
 coral: "In my Room",
 fooFighters: "All my Life"}
 
-function updatePlaylist(obj, artist, song){
-  obj.artist = song;
-  return obj
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist.artisNamet = songTitle;
+  return playlist
 }
 
-function removeFromPlaylist(obj,artist){
-  delete obj.artist;
-  return obj
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artistName;
+  return playlist
 }
