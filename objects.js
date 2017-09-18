@@ -1,4 +1,4 @@
-var playlist = { 
+var playlist = {
 queen: "Killer Queen",
 coral: "In my Room",
 fooFighters: "All my Life"}
