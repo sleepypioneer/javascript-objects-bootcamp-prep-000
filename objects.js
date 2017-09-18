@@ -4,7 +4,7 @@ coral: "In my Room",
 fooFighters: "All my Life"}
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.artistName = songTitle;
+  playlist[artistName] = songTitle;
   return playlist
 }
 
